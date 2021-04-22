@@ -1,10 +1,4 @@
 import Head from "next/head";
-import {
-  DocumentationCard,
-  GithubCard,
-  LearnCard,
-  VercelCard,
-} from "../components/cards";
 import { Footer } from "../components/footer";
 import { Card } from "../components/card";
 import { Description } from "../components/description";
