@@ -33,6 +33,7 @@ body {
   background: #ffffff;
   position: relative;
   border-radius: var(--borderWidth);
+  margin-bottom: 100px;
 }
 .gradient-border:after {
   content: "";
