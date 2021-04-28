@@ -1,30 +1,26 @@
 import Head from "next/head";
-import { Footer } from "../components/footer";
-import { Card } from "../components/card";
-import { Description } from "../components/description";
-import styles from "../styles/Home.module.css";
+import { Card } from "@/components/card";
+import { Description } from "@/components/description";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={"container"}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Animation Techniques Web!!</h1>
-
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <main className={"main"}>
+        <h1 className={"gradient-border"} id="box">
+          Welcome to Animation Techniques Web!!
+        </h1>
 
         <Description
-          description={"Ready to learn about animation techniques??"}
+          description={"Ready to learn about animation techniques?"}
         />
 
-        <div className={styles.grid}>
+        <div className={"grid"}>
           <Card
             title={"2D Animation"}
             description={"I want to learn more about 2D Animation."}

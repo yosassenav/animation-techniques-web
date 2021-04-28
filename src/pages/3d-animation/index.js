@@ -1,17 +1,20 @@
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
-import { Footer } from "../../components/footer";
+import { Image } from "@/components/img";
+import { Footer } from "@/components/footer";
 
 export default function Animations() {
   return (
-    <div className={styles.container}>
+    <div className={"container"}>
       <Head>
         <title>3D Animation</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>3D Animation</h1>
+      <main className={"main"}>
+        <h1 className={"gradient-border"} id="box2">
+          3D Animation
+        </h1>
+        <Image src="/toy-story.jpg" alt="Toy Story" width="700" height="300" />
       </main>
 
       <Footer />
